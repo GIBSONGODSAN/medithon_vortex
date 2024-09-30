@@ -1,0 +1,67 @@
+/* Basic styling for the container and title */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Table styling for better structure */
+  .schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .schedule-table thead {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .schedule-table th, .schedule-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .schedule-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .schedule-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Style for rows with no data */
+  .no-schedules {
+    text-align: center;
+    color: #888;
+    font-size: 16px;
+  }
+  
+  /* General page styling */
+  body {
+    background-color: #f8f9fa;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  hr {
+    border: 1px solid #ddd;
+  }
+  
+  /* Responsive behavior */
+  @media (max-width: 768px) {
+    .schedule-table {
+      font-size: 14px;
+    }
+  }
+  

@@ -15,7 +15,7 @@ function Dashboard() {
     <div className="dashboard-container">
       <h2>Secure File Transfer Dashboard</h2>
       <button onClick={() => navigate('/upload')}>Upload Files</button>
-      <button onClick={() => navigate('/audit-log')}>View Audit Logs</button>
+      <button onClick={() => navigate('/viewShedule')}>View Schedule</button>
       <button onClick={handleLogout}>Logout</button>
     </div>
   );

@@ -5,6 +5,7 @@ import SignUp from './pages/SignUp';
 import Dashboard from './pages/Dashboard';
 import AuthGuard from './pages/AuthGuard'; // Import AuthGuard
 import Upload from './pages/Upload';
+import ViewSchedule from './pages/ViewSchedule';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/upload" element={<AuthGuard><Upload /></AuthGuard>} />
+          <Route path="/viewschedule" element={<AuthGuard><ViewSchedule /></AuthGuard>} />
           {/* Protect the Dashboard route with AuthGuard */}
           <Route 
             path="/dashboard" 
@@ -23,7 +25,7 @@ function App() {
               </AuthGuard>
             } 
           />
-          <Route path="*" element={<Navigate to="/" />} /> {/* Redirect unknown routes */}
+          <Route path="*" element={<Navigate to="/viewschedule" />} /> {/* Redirect unknown routes */}
         </Routes>
       </Router>
     </div>

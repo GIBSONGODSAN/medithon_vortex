@@ -1,0 +1,130 @@
+/* Container for the entire upload page */
+.upload-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f7fa;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    color: #333;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #222;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .email-display, .email-input-group {
+    margin-bottom: 15px;
+  }
+  
+  .email-text, .email-input, .textarea-input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: #fff;
+    color: #333;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .email-input:focus, .textarea-input:focus {
+    outline: none;
+    border-color: #0077ff;
+    box-shadow: 0 0 5px rgba(0, 119, 255, 0.4);
+  }
+  
+  textarea.textarea-input {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  /* Vibrant button styles */
+  .primary-btn, .secondary-btn {
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 8px 4px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #0077ff; /* Vibrant blue */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .primary-btn:hover {
+    background-color: #005bb5;
+    box-shadow: 0 4px 12px rgba(0, 91, 181, 0.4);
+  }
+  
+  .secondary-btn {
+    background-color: #ff7675; /* Vibrant red/pink */
+  }
+  
+  .secondary-btn:hover {
+    background-color: #d64541;
+    box-shadow: 0 4px 12px rgba(214, 69, 65, 0.4);
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .file-tree {
+    margin-top: 20px;
+  }
+  
+  .file-tree ul {
+    list-style-type: none;
+    padding-left: 10px;
+  }
+  
+  .directory-item, .file-item {
+    padding: 8px;
+    border-radius: 6px;
+    background-color: #f0f4ff;
+    cursor: pointer;
+    margin-bottom: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .directory-item:hover, .file-item:hover {
+    background-color: #d0e3ff;
+  }
+  
+  .selected {
+    background-color: #0077ff;
+    color: #fff;
+  }
+  
+  h3 {
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .modal {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  
+  .toastify-container {
+    font-family: 'Poppins', sans-serif;
+  }
+  

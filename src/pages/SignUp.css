@@ -9,7 +9,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #ff72d5, #bd0075);
+    background-color: aliceblue;
     height: 100vh;
     justify-content: center;
     align-items: center;
@@ -21,7 +21,7 @@ body {
 }
 
 .signup-box {
-    background: rgb(255, 244, 210);
+    background: rgb(255, 237, 165);
     border-radius: 4px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     padding: 15px;
@@ -56,13 +56,13 @@ input {
 }
 
 input:focus {
-    border-color: #4facfe;
+    border-color: rgb(99, 79, 254);
 }
 
 .signup-button {
     width: 100%;
     padding: 10px;
-    background-color: #ff00a6;
+    background-color: #2500f5;
     color: white;
     border: none;
     border-radius: 4px;
